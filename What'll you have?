@@ -1,0 +1,18 @@
+var Starbucks = prompt("Tired?","Type drink here");
+
+switch(Starbucks) {
+    case 'latte':
+        console.log("One " + Starbucks + ", comin' right up!");
+        break;
+    case 'cappuccino': 
+        console.log("Yum! I love " + Starbucks + "!");
+        break;
+    case 'coffee':
+            if ('venti') {
+                console.log("You got it.");
+            }
+            break;
+    default :
+        console.log("What size would you like your " + Starbucks + "?", "Really?");
+        break;
+}
