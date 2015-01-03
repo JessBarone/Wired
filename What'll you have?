@@ -13,6 +13,6 @@ switch(Starbucks) {
             }
             break;
     default :
-        console.log("What size would you like your " + Starbucks + "?", "Really?");
+        console.log("What size would you like your " + Starbucks + "?");
         break;
 }
